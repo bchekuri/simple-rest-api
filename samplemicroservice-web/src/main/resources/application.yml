@@ -1,0 +1,27 @@
+spring:
+   application:
+      name: samplemicroservice
+   profiles:
+      active: "local"
+
+   server:
+     context-path: samplemicroservice
+     port: 8080
+
+   info:
+     app:
+       name: samplemicroservice
+       description: Sample microservice by BChekuri using spring-boot
+       version: 1.0.0
+    
+   datasource:
+      url: jdbc:h2:file:./target/h2db/db/samplemicroservice;DB_CLOSE_DELAY=-1
+      username: admin
+      password: admin
+   jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      database: H2
+      show-sql: true
+      properties:
+         hibernate.cache.use_query_cache: false
+    

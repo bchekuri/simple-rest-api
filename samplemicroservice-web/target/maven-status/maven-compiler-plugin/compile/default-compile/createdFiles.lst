@@ -1,0 +1,4 @@
+org\innovate\samplemicroservice\web\ApplicationInfoController.class
+org\innovate\samplemicroservice\Application.class
+org\innovate\samplemicroservice\config\DatabaseConfig.class
+org\innovate\samplemicroservice\config\ApplicationConfig.class

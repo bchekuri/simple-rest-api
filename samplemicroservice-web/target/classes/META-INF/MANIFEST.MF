@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: samplemicroservice-web
+Implementation-Version: 01.00.00-SNAPSHOT
+Built-By: BC
+Implementation-Vendor-Id: org.innovate.samplemicroservice
+Build-Jdk: 1.8.0_73
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/samplemicroservice/samplemicroservice-web
+Created-By: Maven Integration for Eclipse
+
